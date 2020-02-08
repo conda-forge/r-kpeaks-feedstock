@@ -1,4 +1,4 @@
-{% set version = '0.1.0' %}
+{% set version = "1.1.0" %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -12,11 +12,11 @@ source:
   url:
     - https://cran.r-project.org/src/contrib/kpeaks_{{ version }}.tar.gz
     - https://cran.r-project.org/src/contrib/Archive/kpeaks/kpeaks_{{ version }}.tar.gz
-  sha256: 68e6e1a1d2aaac2cd409fb6829995b4ad29a8c32fe8214022c6343ed39b3b7e3
+  sha256: 0d5e857aa09fdb43189a9626b55327e231bbf669c3e420f3fb0c53042c76fd14
 
 build:
   noarch: generic
-  number: 1001
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
