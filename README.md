@@ -1,11 +1,11 @@
-About r-kpeaks
-==============
+About r-kpeaks-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-kpeaks-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=kpeaks
 
 Package license: GPL-2
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-kpeaks-feedstock/blob/main/LICENSE.txt)
 
 Summary: The number of clusters (k) is needed to start all the partitioning clustering algorithms. An optimal value of this input argument is widely determined by using some internal validity indices. Since most of the existing internal indices suggest a k value which is computed from the clustering results after several runs of a clustering algorithm they are computationally expensive. On the contrary,  the package 'kpeaks' enables to estimate k before running any clustering algorithm. It is based on a simple novel technique using the descriptive statistics of peak counts of the features in a data set.
 
