@@ -1,6 +1,5 @@
 {% set version = '1.1.0' %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-kpeaks
@@ -13,8 +12,7 @@ source:
   sha256: 0d5e857aa09fdb43189a9626b55327e231bbf669c3e420f3fb0c53042c76fd14
 
 build:
-  merge_build_host: True  # [win]
-  number: 3
+  number: 4
   noarch: generic
   rpaths:
     - lib/R/lib/
